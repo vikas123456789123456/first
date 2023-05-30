@@ -1,0 +1,15 @@
+div {
+    left-margin:500px;
+    font-color:green;
+}
+h1{
+    font-family:'Courier New', Courier, monospace;
+   
+    color:rgba(255, 0, 0, 0.76);
+}
+p{
+    
+    border: 50px;
+    background-color:red;
+    color: rgb(31, 14, 14);
+}
