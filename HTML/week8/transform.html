@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 120px;
+            width:120px;
+            border:solid;
+            /* move the box x and y direction respectively */
+            /* transform: translate(50px,100px); */
+            /* transform: translateX(40px); */
+            /* transform: translate3d(40px,40px,40px); */
+        }
+        .image{
+            /* give the image 1.5 times the orig size */
+            /* transform: scale(1.2,1.3); */
+            /* transform: scaleY(1.2); */
+            /* transform: rotate(-5deg); */
+            transform: skew(15deg,20deg);
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="box"></div> -->
+    <img class="image" src="https://picsum.photos/seed/picsum/200/300" alt="images">
+    <img src="https://picsum.photos/seed/picsum/200/300" alt="images">
+</body>
+</html>

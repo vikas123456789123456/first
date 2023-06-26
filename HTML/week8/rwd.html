@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{ 
+            height: 100vh;
+
+        }
+        h1{
+            color: rgb(192, 192, 110);
+        }
+        @media screen and (max-width:400px) {
+            .box{
+                background-color: rgb(83, 227, 50);
+            }
+        
+    }
+        /* 576 px and down */
+    @media screen and (min-width:576px) {
+        .box{
+            background-color: purple;
+        }
+        
+    }
+           /* small device: 576pc and up  */
+           @media screen and (min-width:800px) {
+            .box{
+                background-color: blue;
+            }
+        
+    }
+    @media screen and (min-width:1200px) {
+            .box{
+                background-color: rgb(218, 112, 116);
+            }
+        
+    }
+            
+        
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1 class="screen">Width:</h1>
+    </div>
+</body>
+</html>
